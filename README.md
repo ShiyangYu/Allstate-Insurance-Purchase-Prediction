@@ -4,4 +4,7 @@
 
 #### Due to difficult problem I face, Naïve Approach: use last quotes as prediction of final purchase, is set as baseline to simplify original problem. New problem is that customers who don’t meet baseline should be recognized. Customers are categorized into 2 groups: stable and unstable customers. Stable customers meet baseline, which means their purchases are the same as last quotes. Unstable customers do not meet baseline, which means their purchase are different with last quotes. Algorithm will predict and classify customers into proper groups and then only baseline of unstable customers should be changed. Baseline improvement methods include states purchase preference, association rules and individually predicted option G. Conclusively, after using baseline, two problems I am facing are: 1. Change whose baselines, 2. How to change their baselines.
 
+![image](https://github.com/ShiyangYu/Allstate-Insurance-Purchase-Prediction/blob/master/images/methodology.png)
+
+#### Finally, with my improvement, I beat baseline in testing data by 0.524%. Baseline accuracy in testing data is 53.269% and our accuracy is 53.793%. Average level in Kaggle beats baseline by 0.06%.
 
